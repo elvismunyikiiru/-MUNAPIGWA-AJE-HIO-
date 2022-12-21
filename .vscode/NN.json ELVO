@@ -1,0 +1,121 @@
+ à, è, ì, ò, ù,
+À, È, Ì, Ò, Ù
+
+CTRL+` (ACCENT GRAVE), the letter
+
+á, é, í, ó, ú, ý
+Á, É, Í, Ó, Ú, Ý
+
+CTRL+' (APOSTROPHE), the letter
+
+â, ê, î, ô, û
+Â, Ê, Î, Ô, Û
+
+CTRL+SHIFT+^ (CARET), the letter
+
+ã, ñ, õ
+Ã, Ñ, Õ
+
+CTRL+SHIFT+~ (TILDE), the letter
+
+ä, ë, ï, ö, ü, ÿ,
+Ä, Ë, Ï, Ö, Ü, Ÿ
+
+CTRL+SHIFT+: (COLON), the letter
+
+å, Å
+
+CTRL+SHIFT+@, a or A
+
+æ, Æ
+
+CTRL+SHIFT+&, a or A
+
+œ, Œ
+
+CTRL+SHIFT+&, o or O
+
+ç, Ç
+
+CTRL+, (COMMA), c or C
+
+ð, Ð
+
+CTRL+' (APOSTROPHE), d or D
+
+ø, Ø
+
+CTRL+/, o or O
+
+¿
+
+ALT+CTRL+SHIFT+?
+
+¡
+
+ALT+CTRL+SHIFT+!
+
+ß
+
+CTRL+SHIFT+&, s
+
+The Unicode character for the specified Unicode (hexadecimal) character code
+
+The character code, ALT+X
+
+For example, to insert the euro currency symbol Euro currency symbol, type 20AC, and then hold down the ALT key and press X.
+
+The ANSI character for the specified ANSI (decimal) character code
+
+ALT+the character code (on the numeric keypad)
+
+Make sure that NUM LOCK is on before you type the character code.
+
+For example, to insert the euro currency symbol, hold down the ALT key and press 0128 on the numeric keypad.
+
+For more info on using Unicode and ASCII characters, see Insert ASCII or Unicode character codes.
+
+To insert this macron character:
+
+Ā
+
+ā
+
+Ē
+
+ē
+
+Ī
+
+ī
+
+Ō
+
+ō
+
+Ū
+
+ū
+
+Press this:
+
+Alt+0256
+
+Alt+0257
+
+Alt+0274
+
+Alt+0275
+
+Alt+0298
+
+Alt+0299
+
+Alt+0332
+
+Alt+0333
+
+Alt+0362
+
+Alt+0363
+

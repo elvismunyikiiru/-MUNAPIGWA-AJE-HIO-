@@ -1,0 +1,2897 @@
+HUELIPKME
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    # Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch LATIN
+# Your branch is up to date with 'origin/LATIN'.
+#
+# Changes to be committed:
+#	new file:   .vscode/launch.json
+#
+# Changes not staged for commit:
+#	modified:   .vscode/launch.json
+#
+
+    "version": "0.2.0",
+    "configurations": [
+        EXPECTED a json object,arrayor literal
+
+
+        {
+            "version": "0.2.0",
+            "configurations": [],
+            "compounds": []
+        }
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+    
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }, {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        :{
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "task"
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "-u",
+                "tdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
+                "generator"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "Yeoman generator",
+            "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "address": "TCP/IP address of process to be debugged",
+            "localRoot": "${workspaceFolder}",
+            "name": "Attach to Remote",
+            "port": 9229,
+            "remoteRoot": "Absolute path to the remote directory containing the program",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+{> @@ -2752,10 +2752,30 @@ XlaOp XlaBuilder::AllGatherImpl(const XlaOp operand,
+HloInstructionProto instr;
+TF_ASSIGN_OR_RETURN(const Shape* operand_shape, GetShapePtr(operand));
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head data-info="f:msnallexpusers,prg-hide-metext-c,prg-fin-nssa,prg-shop-staginc,moneyhp1cf,modcoglangc,prg-com-staging,platagyhz2cf,artgly2cf,prg-ads-t-onesz-r2,prg-ads-onesz,prg-mtss-v2,onetrustpoplive,prg-wea-staging,prg-1sw-sagetpuqpbctr,prg-1sw-satscgcglbc01,prg-1sw-sageifpglb,prg-wpo-sagernk,prg-1sw-inlnftch,prg-1sw-idxtsd,prg-displaylocshell-t,prg-1sw-ebrfnt1,prg-1sw-extbr,prg-newsplus-staging,preprg-fin-nojo,prg-fin-cryprom,prg-adspeek,btrecrow1,1s-winauthservice,prg-1sw-wcf1,prg-1sw-fwc,prg-1sw-fwcp1,prg-1sw-sptprvmax5,prg-1sw-i1casualg2,prg-hprewflyout-t,prg-wf-sky-re,prg-1sw-c-ir10,precontrol-test-auto,prg-1sw-clbdg,1s-p2-brknb,1s-p2cl-bdg,prg-1sbgbanner,prg-1sw-wxbdg,btie-aspectu2a-intl-t2,prg-ias,routentpring2t,1s-fcrypt,prg-winhp-rshdedup,prg-1sw-gempcv1p5x1,prg-1sw-gempcv1p5,prg-1sw-6tsfic,prg-1sw-ccnousercfc,prg-wpo-pnpc,prg-1sw-dmb1,prg-1sw-cpr2clarity,prg-pr2-sdre11cb,prg-2sw-esprtcsp,prg-pr2-sdb11cb,prg-pr2-sdb11cbe,prg-pr2-fvfix,prg-pr2-ctr,prg-upsaip-w1-t,prg-upsaip-r-t,prg-wx-anmpr,prg-wtchctnicon,prg-wx-sbn-vm,prg-1sw-sbn-mm,prg-wx-visitm,1s-rpssecautht,prg-1sw-p1wtrclm,prg-1sw-imgzoomintlctr,prg-sh-aka,prg-sh-hadr,prg-sh-had2r,prg-sh-synadhpr,prg-pr2-hdr-monoline,prg-1sw-wcf2,prg-1sw-fwcp2,prg-1sw-spdyhdc,prg-p2-pinsamec,prg-prong2-superip,1s-brcolors,1s-cols-duo,prg-pr2-info,prg-sc-prong2,prg-wscards-t2,prg-wsuperip-p2,prg-plusfdhead,ads-engageyaeu,1s-skip-systags,prg-ugc-test-3,1s-xapntpseg,prg-weanouser1,prg-1sw-crpwlntp-c,prg-mbnt,prg-1s-tpsntcdata-c,prg-displaylocntp-t,prg-testhealthtipc,prg-rrdynamicdocknc,prg-wpo-rech5t,prg-wpo-2dtpmod2,prg-1sw-wcfnt,prg-1sw-fwcntp,6jcbh698,prg-wcm-ptfr,prg-1sw-enablenpq-c,prg-wtchload,prg-mon-esfy,prg-mon-mdc,prg-sprnav-f,prg-sprnav,prg-sprnav2,1s-compicsync,prg-nlclose,prg-rrdynamicdockwin,ios-sso-autosignin-t,prg-1sw-cbm0,prg-1sw-cp2uni,prg-1sw-multif1,prg-inte-sess,prg-wx-aqzoom,prg-1sw-multifn,ads-xandradfullc,prg-1sw-smbar1,prg-1sw-smbar,prg-smbar,prg-dbzm200,prg-pr2-telpin,1s-defaultscn,prg-1sw-pde0,prg-1sw-p1svgv6,prg-1sw-p2pngv6,prg-wpo-rewrite,prg-1s-vlprecalllog3,prg-1sw-aqeu,prg-1sw-multif2,prg-rv-newt-c,1s-defaultscnw,prg-1sw-hce,prg-wx-mslp,prg-1sw-3dl1,prg-1sw-rhani,prg-1sw-secbadgec,prg-ctr-eemux,prg-1sw-wcstart,prg-1sw-wxhvr24,prg-hpweac0,prg-1sw-navi3d,prg-wx-swci,prg-wx3dci,prg-sh-watchshorts,1fd69774,prg-1sw-cfwxtstmp,prg-1sw-aqbg,prg-1sw-wxhrtbi-c,prg-1sw-tbrcounter,prg-1sw-blprrptr2,prg-1sw-shpp1,prg-timelineci,prg-1sw-wcfnl,prg-1sw-fwcntpl,prg-unbkprads,prg-wx-morci,prg-1sw-wc16engwsn,prg-1sw-esp2,prg-1sw-wc16nlwus,enterprise,prg-1sw-wc16arwau,prg-1sw-wc16frwpl,prg-ct-rr-adsonly,prg-sh-cdlb,prg-wtchportrait,prg-sh-eventh,prg-ntpholid,prg-sh-evlive,prg-sh-live-c-ss,prg-designslate2,prg-w-grt;" data-client-settings="{&quot;aid&quot;:&quot;1E9A6E0D24894410958EFD39AFE28B81&quot;, &quot;fd_muid&quot;:&quot;15CCDCC46AE46123264CCD836B8F60E8&quot;, &quot;static_page&quot;:&quot;false&quot;, &quot;queryparams&quot;:&quot;?locale=en-KE&amp;title=New&#x2B;Tab&amp;dsp=1&amp;sp=Bing&amp;prerender=1&quot;, &quot;apptype&quot;:&quot;edgeChromium&quot;, &quot;pagetype&quot;:&quot;ntp&quot;, &quot;configRootUrl&quot;:&quot;https://assets.msn.com/config/v1/&quot;, &quot;feedBaseDomain&quot;:&quot;&quot;, &quot;deviceFormFactor&quot;:&quot;desktop&quot;, &quot;pageGenTime&quot;:&quot;2022-12-05T15:30:02Z&quot;, &quot;pcsInfo&quot;:{&quot;v&quot;:&quot;20221129.2_master&quot;, &quot;env&quot;:&quot;prod&quot;}, &quot;locale&quot;:{&quot;language&quot;:&quot;en&quot;, &quot;market&quot;:&quot;us&quot;, &quot;content&quot;:{&quot;language&quot;:&quot;en&quot;, &quot;market&quot;:&quot;us&quot;}, &quot;display&quot;:{&quot;language&quot;:&quot;en&quot;, &quot;market&quot;:&quot;us&quot;}}, &quot;featureFlags&quot;:{ &quot;wpoEnabled&quot;: &quot;true&quot; }, &quot;market&quot;:{ &quot;requestInput&quot;:{ &quot;language&quot;:&quot;en&quot;,&quot;region&quot;:&quot;KE&quot;, &quot;geo_country&quot;:&quot;DE&quot;}, &quot;detection&quot;:{ &quot;type&quot;:&quot;implicitExisting&quot;,&quot;geo_country&quot;:&quot;&quot;}}, &quot;servicesEndpoints&quot;:{&quot;staticConfig&quot;: {&quot;domain&quot;: &quot;https://assets.msn.com&quot;, &quot;path&quot;: &quot;/config/v3/&quot;, &quot;v&quot;: &quot;&quot;},&quot;crs&quot;: {&quot;domain&quot;: &quot;&quot;, &quot;path&quot;: &quot;/resolver/api/resolve/&quot;, &quot;v&quot;: &quot;v3&quot;},&quot;feedService&quot;: {&quot;domain&quot;: &quot;https://assets.msn.com&quot;, &quot;path&quot;: &quot;&quot;, &quot;v&quot;: &quot;&quot;},&quot;enterpriseFeedService&quot;: {&quot;domain&quot;: &quot;https://ent-api.msn.com/&quot;, &quot;path&quot;: &quot;&quot;, &quot;v&quot;: &quot;&quot;}}, &quot;bundleInfo&quot;:{&quot;v&quot;:&quot;20221202.609&quot;, &quot;alias&quot;:&quot;latest&quot;}, &quot;os&quot;:&quot;macos&quot;, &quot;browser&quot;:{&quot;browserType&quot;:&quot;edgeChromium&quot;, &quot;version&quot;:&quot;107&quot;, &quot;ismobile&quot;:&quot;false&quot;}, &quot;domain&quot;:&quot;ntp.msn.com&quot;, &quot;detection&quot;:{&quot;ip&quot;:&quot;194.95.116.133&quot;}, &quot;geo_country&quot;:&quot;DE&quot;, &quot;geo_countryname&quot;:&quot;Germany&quot;, &quot;geo_subdivision&quot;:&quot;Thuringia&quot;, &quot;geo_zip&quot;:&quot;99089&quot;, &quot;geo_city&quot;:&quot;Erfurt&quot;, &quot;geo_lat&quot;:&quot;50.9908&quot;, &quot;geo_long&quot;:&quot;11.0098&quot;, &quot;requestMuid&quot;:&quot;15CCDCC46AE46123264CCD836B8F60E8&quot;}" data-diagnostics="{&quot;mc&quot;:{&quot;spt&quot;:&quot;en-KE%7c%7c%7cen-us%7cen-us%7cen%7c&quot;}}">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="origin-trial" content="AiBNAXDqdjm8yk+dnAAZ0tiy9SFmRxU6KFMbpg/Y8NU5XC8csS1N4lXGRTsJyf2WjkzYTu+0xzR4KQW263x5FpkAAABseyJvcmlnaW4iOiJodHRwczovL21zbi5jb206NDQzIiwiaXNTdWJkb21haW4iOnRydWUsImZlYXR1cmUiOiJNc1VzZXJBZ2VudExhdW5jaE5hdlR5cGUiLCJleHBpcnkiOjE2NTY2NTg4MDB9">
+        <meta http-equiv="origin-trial" content="AoYo+ZxvmSiazdSmQN5SbT8CG/4LEd6XVQIfEyNcn82Q1iEOf2U/L4KQk8L4od96jH8CZ44bdWlm+oNQFiql8XAAAAB1eyJvcmlnaW4iOiJodHRwczovL21zbi5jb206NDQzIiwiaXNTdWJkb21haW4iOnRydWUsImZlYXR1cmUiOiJNc1Byb3RvY29sTGF1bmNoVGltaW5nSW5mb3JtYXRpb24iLCJleHBpcnkiOjE2Nzc1NDI0MDB9">
+        <title></title>
+        <script nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            window.NONCE_ID = "KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=";
+        </script>
+        <script nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            function getCookieConsentRequired() {
+                return false;
+            }
+            window._ssrServiceEntryUrl = "/bundles/v1/edgeChromium/latest/SSR-service-entry.c47ad31ae2792b958f07.js";
+        </script>
+        <div id="ssr" data-ssr-entry="/bundles/v1/edgeChromium/latest/SSR-service-entry.c47ad31ae2792b958f07.js" hidden></div>
+        <script type="text/javascript" id="inlinehead-inline-script" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            window["_webWorkerBundle"] = "/bundles/v1/edgeChromium/latest/web-worker.d322e214917a39c1b6da.js";
+            window["_authCookieName"] = "aace";
+            !function() {
+                "use strict";
+                var e = {}
+                  , t = {};
+                function n(o) {
+                    var i = t[o];
+                    if (void 0 !== i)
+                        return i.exports;
+                    var r = t[o] = {
+                        exports: {}
+                    };
+                    return e[o](r, r.exports, n),
+                    r.exports
+                }
+                n.g = function() {
+                    if ("object" == typeof globalThis)
+                        return globalThis;
+                    try {
+                        return this || new Function("return this")()
+                    } catch (e) {
+                        if ("object" == typeof window)
+                            return window
+                    }
+                }(),
+                function() {
+                    {
+                        const e = n.e
+                          , t = {};
+                        n.e = function(o) {
+                            return e(o).catch((function(e) {
+                                const i = t.hasOwnProperty(o) ? t[o] : 2;
+                                if (i < 1)
+                                    throw e;
+                                return new Promise((function(e) {
+                                    setTimeout((function() {
+                                        t[o] = i - 1,
+                                        e(n.e(o))
+                                    }
+                                    ), 100)
+                                }
+                                ))
+                            }
+                            ))
+                        }
+                    }
+                }();
+                var o;
+                function i(e) {
+                    try {
+                        if (e)
+                            return JSON.parse(e)
+                    } catch (e) {}
+                    return null
+                }
+                function r(e) {
+                    try {
+                        return decodeURIComponent(e)
+                    } catch (e) {}
+                }
+                function s() {
+                    return !("undefined" == typeof window || !window.document || !window.document.createElement || window.isRenderServiceEnv)
+                }
+                !function(e) {
+                    e.Android = "android",
+                    e.Ios = "ios",
+                    e.Linux = "linux",
+                    e.Macos = "macos",
+                    e.Windows = "windows",
+                    e.Xbox = "xbox"
+                }(o || (o = {}));
+                const c = "data-client-settings"
+                  , a = "Authorization"
+                  , u = "UserAuthToken";
+                var l, d;
+                !function(e) {
+                    e.Presentation = "presentation"
+                }(l || (l = {})),
+                function(e) {
+                    e.Unknown = "Unknown",
+                    e.Portrait = "Portrait",
+                    e.Landscape = "Landscape"
+                }(d || (d = {}));
+                var g, h, p, f, m, w;
+                function b() {
+                    var e;
+                    return s() ? i(document.head.dataset.clientSettings || (null === (e = document.getElementsByClassName("peregrine-widget-settings")[0]) || void 0 === e ? void 0 : e.getAttribute(c))) : null
+                }
+                let v;
+                function y(e, t) {
+                    if (!e)
+                        return null;
+                    if (t)
+                        return function(e) {
+                            const t = document.cookie.match(`\\b${e}=([^;]*)`);
+                            return t ? r(t[1]) : null
+                        }(e);
+                    if (!v) {
+                        const e = "undefined" != typeof document && document.cookie.split("; ");
+                        v = {};
+                        const t = e && e.length;
+                        for (let n = 0; n < t; n++) {
+                            const t = e[n].indexOf("=");
+                            v[e[n].slice(0, t).toLocaleLowerCase()] = r(e[n].slice(t + 1))
+                        }
+                    }
+                    const n = e.toLocaleLowerCase();
+                    return v[n] || null
+                }
+                function S(e) {
+                    const t = y(e);
+                    return t && encodeURIComponent(t) || null
+                }
+                function k(e) {
+                    let t, n = !1;
+                    const o = function() {
+                        return n || (n = !0,
+                        t = e()),
+                        t
+                    };
+                    return o.cache = {
+                        clear: ()=>{
+                            n = !1,
+                            t = void 0
+                        }
+                    },
+                    o
+                }
+                !function(e) {
+                    e[e.Undefined = 0] = "Undefined",
+                    e[e.Basic = 1] = "Basic",
+                    e[e.Advanced = 2] = "Advanced",
+                    e[e.Premium = 3] = "Premium"
+                }(g || (g = {})),
+                function(e) {
+                    e.Init = "init",
+                    e.Config = "config",
+                    e.Targeted = "targeted",
+                    e.Sticky = "sticky",
+                    e.NoSticky = "no_sticky",
+                    e.Admin = "admin",
+                    e.Forced = "forced",
+                    e.Manual = "manual"
+                }(h || (h = {})),
+                function(e) {
+                    e.Adult = "adult",
+                    e.Enterprise = "enterprise",
+                    e.Kids = "kids"
+                }(p || (p = {})),
+                function(e) {
+                    e[e.Unknown = 0] = "Unknown",
+                    e[e.NotSignedIn = 1] = "NotSignedIn",
+                    e[e.SignedIn = 2] = "SignedIn"
+                }(f || (f = {})),
+                function(e) {
+                    e.MSA = "MSA",
+                    e.AAD = "AAD",
+                    e.UNSUPPORTED_SOVEREIGNTY = "UNSUPPORTED_SOVEREIGNTY"
+                }(m || (m = {})),
+                function(e) {
+                    e[e.NonAadAccount = 0] = "NonAadAccount",
+                    e[e.AadAccount = 1] = "AadAccount",
+                    e[e.Unknown = 2] = "Unknown"
+                }(w || (w = {}));
+                const A = "currentaccount"
+                  , I = k((()=>{
+                    const e = y(A, !0)
+                      , t = e && i(e)
+                      , {login_hint: n} = t || {};
+                    return n && t
+                }
+                ))
+                  , q = k((()=>!!y(A)));
+                let C = new class {
+                    constructor() {
+                        s() ? (this.isDebugEnabled = (function(e, t) {
+                            const n = t.replace(/[[\]]/g, "\\$&")
+                              , o = new RegExp("[?&]" + n + "(=([^&#]*)|&|#|$)").exec(e);
+                            if (!o)
+                                return null;
+                            const i = o[2];
+                            return decodeURIComponent(i.replace(/\+/g, " ")) || ""
+                        }(window.location.href, "debug") || "").toLowerCase()in {
+                            1: 1,
+                            true: 1
+                        },
+                        this.isDebugEnabled && !n.g.TEST_ENV && (window.webpackRequire = n)) : this.isDebugEnabled = !1
+                    }
+                    getLoggingService() {
+                        return null
+                    }
+                    isDebug() {
+                        return this.isDebugEnabled
+                    }
+                    setDebug(e) {
+                        this.isDebugEnabled = e
+                    }
+                    setTags(e) {}
+                    log(e, t) {
+                        this.isDebug() && console.info(e)
+                    }
+                    logError(e) {
+                        console.error(e)
+                    }
+                    logCallback(e) {
+                        this.isDebug() && console.info(e())
+                    }
+                    logObjects(...e) {
+                        this.isDebug() && console.log(...e)
+                    }
+                    logSingleObject(e, t) {
+                        this.isDebug() && console.log(e)
+                    }
+                }
+                ;
+                let E, T = new class extends class {
+                    constructor(e) {
+                        this.storage = e
+                    }
+                    get supported() {
+                        return !!this.storage
+                    }
+                    getItem(e) {
+                        if (this.supported)
+                            return this.storage.getItem(e)
+                    }
+                    getObject(e, t) {
+                        const n = this.getItem(e);
+                        if (null != n) {
+                            const e = i(n);
+                            if (null != e)
+                                return e
+                        }
+                        return t
+                    }
+                    key(e) {
+                        if (this.supported && e >= 0)
+                            return this.storage.key(e)
+                    }
+                    keys() {
+                        return this.supported ? Object.keys(this.storage) : []
+                    }
+                    setObject(e, t) {
+                        void 0 !== t ? this.setItem(e, JSON.stringify(t)) : this.removeItem(e)
+                    }
+                    removeObject(e) {
+                        const t = this.removeItem(e);
+                        if (null != t)
+                            return i(t)
+                    }
+                    setItem(e, t, n=!0) {
+                        if (this.supported)
+                            try {
+                                this.storage.setItem(e, t)
+                            } catch (e) {
+                                if (!n)
+                                    throw e;
+                                C.logError(e)
+                            }
+                        else if (!n)
+                            throw new Error("WebStorage not supported")
+                    }
+                    get length() {
+                        if (this.supported)
+                            return this.storage.length
+                    }
+                    removeItem(e) {
+                        if (this.supported) {
+                            const t = this.getItem(e);
+                            return this.storage.removeItem(e),
+                            t
+                        }
+                    }
+                    removeSubstringKeys(e) {
+                        if (!this.supported || !e)
+                            return;
+                        const t = [];
+                        for (let n = 0; n < this.storage.length; n++) {
+                            const o = this.key(n);
+                            o && o.includes(e) && t.push(o)
+                        }
+                        for (let e = 0; e < t.length; e++)
+                            this.removeItem(t[e])
+                    }
+                }
+                {
+                    constructor() {
+                        let e = null;
+                        if (s())
+                            try {
+                                e = localStorage
+                            } catch (e) {}
+                        super(e)
+                    }
+                }
+                ;
+                function _(e) {
+                    return !E && s() && (E = x(document.head.dataset.info || "")),
+                    E && E.has(e)
+                }
+                function x(e) {
+                    const t = (e || "").replace(/(^f:|;.*$)/g, "").split(",");
+                    return new Set(t)
+                }
+                const O = "1s-tokens"
+                  , N = 12096e5;
+                var R;
+                let P, M;
+                function U() {
+                    return P = F(),
+                    P && P.accessToken ? P : void 0
+                }
+                function D() {
+                    if (P = F(),
+                    !P)
+                        return "notAvailable";
+                    const e = P.expiresOn
+                      , t = new Date(e)
+                      , n = "expired";
+                    if (!t.getTime())
+                        return n;
+                    const o = new Date
+                      , i = "valid";
+                    if (t > o)
+                        return i;
+                    if (_("prg-noext"))
+                        return n;
+                    {
+                        const e = I();
+                        if (e && e.account_type === m.MSA) {
+                            if (new Date(t.getTime() + N) > o)
+                                return i
+                        }
+                    }
+                    return n
+                }
+                function F() {
+                    return P = P || void 0 === P && T.getObject(O) || null,
+                    P
+                }
+                !function(e) {
+                    e.NotAvailable = "notAvailable",
+                    e.Expired = "expired",
+                    e.Valid = "valid"
+                }(R || (R = {}));
+                class L {
+                    constructor(e, t) {
+                        if (this.url = new URL(e.href),
+                        this.innerHeight = e.innerHeight,
+                        this.devicePixelRatio = e.devicePixelRatio,
+                        this.canUseCssGrid = e.canUseCssGrid,
+                        this.requestId = e.requestId,
+                        this.cookie = e.cookie,
+                        this.referer = e.referer,
+                        this.userAgent = e.userAgent,
+                        this.oneServiceHeaders = function(e) {
+                            try {
+                                if (e)
+                                    return JSON.parse(e)
+                            } catch (e) {}
+                        }(e.oneServiceHeaders) || {},
+                        this.isPssrMode = t,
+                        t) {
+                            const e = W("OSATE", this.cookie)
+                              , t = !!e && "1" === e
+                              , n = W("OSAT", this.cookie);
+                            if (t && n || !e && !n)
+                                return this.msalAuthReady = !0,
+                                void (n && (this.oneServiceHeaders.Authorization = `Bearer ${n}`));
+                            this.msalAuthReady = !1,
+                            this.pssrRejectedReason = e && !t ? "interactiveLogin" : e && !n ? "missOSAT" : "missOSATE"
+                        }
+                    }
+                    static getInstance() {
+                        return n.g.TEST_ENV && !L._instance && H({
+                            href: "http://localhost:8080/",
+                            innerHeight: 768,
+                            devicePixelRatio: 1,
+                            canUseCssGrid: !1,
+                            requestId: "0",
+                            cookie: "",
+                            userAgent: "",
+                            referer: "",
+                            oneServiceHeaders: ""
+                        }),
+                        L._instance || H({
+                            href: "http://localhost:8080/",
+                            innerHeight: 0,
+                            devicePixelRatio: 0,
+                            canUseCssGrid: !1,
+                            requestId: "0",
+                            cookie: "",
+                            userAgent: "",
+                            referer: "",
+                            oneServiceHeaders: ""
+                        }),
+                        L._instance
+                    }
+                    static resetInstance(e, t=!1) {
+                        return L._instance = new L(e,t),
+                        L._instance
+                    }
+                }
+                function W(e, t) {
+                    if (t && e) {
+                        const n = new RegExp("\\b" + e + "\\s*=\\s*([^;]*)","i").exec(t);
+                        return n && n.length > 1 ? n[1] : null
+                    }
+                    return null
+                }
+                L._instance = null;
+                const H = L.resetInstance
+                  , G = ()=>L.getInstance();
+                function J() {
+                    try {
+                        return localStorage
+                    } catch (e) {
+                        return null
+                    }
+                }
+                const j = "uxlogin"
+                  , $ = "uxlogout"
+                  , B = "uxedit"
+                  , V = k((()=>{
+                    const e = J();
+                    return e && "1" === e.getItem(j) || s() && location.search && location.search.includes("uxlogin=1")
+                }
+                ));
+                const X = k((()=>{
+                    const e = function() {
+                        try {
+                            return sessionStorage
+                        } catch (e) {
+                            return null
+                        }
+                    }();
+                    return e && !!e.getItem($)
+                }
+                ));
+                const K = k((()=>{
+                    const e = J();
+                    return e && "1" === e.getItem(B)
+                }
+                ));
+                const z = k((()=>{
+                    const e = J()
+                      , t = !_("prg-noredirect") && (e && "1" === e.getItem("useRedirect") || function() {
+                        const e = document.head.dataset.clientSettings || ""
+                          , {browser: t} = i(e) || {}
+                          , {browserType: n=""} = t || {};
+                        return !!/safari/i.test(n)
+                    }());
+                    return t
+                }
+                ));
+                const Y = {
+                    newsAndInterests: 1,
+                    windowsNewsbar: 1,
+                    windowsNewsPlus: 1,
+                    winWidgets: 1,
+                    windowsShell: 1,
+                    windowsShellV2: 1,
+                    distribution: 1,
+                    superApp: 1
+                }
+                  , Q = {
+                    edgeChromium: 1
+                }
+                  , Z = k((()=>(s() && b() || {}).apptype))
+                  , ee = k((()=>ne() && (I() || !y("ace"))))
+                  , te = k((()=>s() && !(Z()in Y) && !_("prg-nodualauth")))
+                  , ne = k((()=>te() && !(Z()in Q)));
+                k((()=>te() && (!(Z()in Q) || !q()))),
+                k((()=>te() && !ue()));
+                function oe() {
+                    return ue()
+                }
+                function ie(e) {
+                    return re(e) && (_("prg-ntp-uat") || _("prg-ntp-uat-nf"))
+                }
+                function re(e) {
+                    return !("edgeChromium" != Z() || e != p.Adult && e != p.Kids || !y("at") && !y("lt"))
+                }
+                k((()=>{
+                    const e = (s() ? window.location.host : G().url.host).toLowerCase().endsWith(".cn");
+                    return te() && (!e || e && _("prg-enable-zhcn"))
+                }
+                ));
+                function se() {
+                    const e = M;
+                    if (e)
+                        return C.log("dual-auth: tryGet1SAuthToken returned live tokens"),
+                        e;
+                    const t = U();
+                    if (t)
+                        return C.log(`dual-auth: tryGet1SAuthToken returned cached tokens that are ${D()}`),
+                        t;
+                    C.log("dual-auth: tryGet1SAuthToken returned empty tokens")
+                }
+                function ce(e) {
+                    const t = {};
+                    if (e) {
+                        const n = Z();
+                        "windowsShell" === n || "windowsShellV2" === n ? t[u] = e : t[a] = `Bearer ${e}`
+                    }
+                    return t
+                }
+                function ae(e) {
+                    const t = {};
+                    return e && (t[u] = e),
+                    t
+                }
+                function ue() {
+                    return ne() && V() || ee() && (ee() && !V() && I() && ("expired" == D() || K()) || X() || z())
+                }
+                var le;
+                !function(e) {
+                    e.GLOBAL = "GLOBAL",
+                    e.GCC_MODERATE = "GCC_MODERATE"
+                }(le || (le = {}));
+                let de, ge;
+                var he, pe, fe;
+                ge = he || (s() ? window : {}),
+                fe = ()=>{
+                    let e;
+                    return {
+                        promise: new Promise((t=>e = t)),
+                        resolver: e
+                    }
+                }
+                ,
+                de = ge[pe = "authHeaderPromiseParts"] || (ge[pe] = fe());
+                let me, we, be;
+                function ve() {
+                    if (!me) {
+                        const e = document.head.getAttribute("data-client-settings");
+                        e && (me = JSON.parse(e))
+                    }
+                    return me
+                }
+                var ye;
+                !function(e) {
+                    e[e.Alert = 0] = "Alert",
+                    e[e.NoAlert = 1] = "NoAlert",
+                    e[e.HighImpact = 2] = "HighImpact",
+                    e[e.Critical = 3] = "Critical"
+                }(ye || (ye = {}));
+                const Se = new class {
+                    constructor(e=20) {
+                        this.maxLength = 20,
+                        this.list = [],
+                        this.maxLength = e
+                    }
+                    push(e) {
+                        this.list.push(e),
+                        this.list.length > this.maxLength && this.list.shift()
+                    }
+                    get data() {
+                        return this.list
+                    }
+                }
+                ;
+                function ke(e, t, n, o=ye.Alert) {
+                    try {
+                        const i = ve()
+                          , r = function() {
+                            if (we)
+                                return we;
+                            const e = document.head.getAttribute("data-info");
+                            return ve(),
+                            we = ((/f:\s*([^;]+)/i.exec(e) || {})[1] || "").toLowerCase(),
+                            we
+                        }()
+                          , s = function(e) {
+                            if (e) {
+                                const {pcsInfo: t, pageGenTime: n} = e
+                                  , o = new Date(n).getTime()
+                                  , i = !t || "prod" === t.env;
+                                be = i ? "browser.events.data.msn.com" : "events-sandbox.data.msn.com";
+                                return {
+                                    cors: "true",
+                                    "content-type": "application/x-json-stream",
+                                    "client-id": "NO_AUTH",
+                                    "client-version": "1DS-Web-JS-2.2.2",
+                                    apikey: i ? "0ded60c75e44443aa3484c42c1c43fe8-9fc57d3f-fdac-4bcf-b927-75eafe60192e-7279" : "f8857dedc6f54ca8962cfb713e01e7d7-e9250191-fe0b-446f-95ae-07516262f98c-7028",
+                                    "upload-time": o,
+                                    w: "0",
+                                    anoncknm: "app_anon"
+                                }
+                            }
+                            return null
+                        }(i);
+                        let c = "";
+                        s && s.apikey && "" !== s.apikey && (c = function(e) {
+                            if (e) {
+                                const t = e.indexOf("-");
+                                if (t > 0)
+                                    return e.substring(0, t)
+                            }
+                            return ""
+                        }(s.apikey));
+                        const a = function(e, t, n, o, i, r, s=ye.Alert) {
+                            if (n) {
+                                i = i || {};
+                                const {apptype: c, audienceMode: a, pagetype: u, pageGenTime: l, bundleInfo: d, deviceFormFactor: g="", fd_muid: h} = n;
+                                i.pageGenTime = l,
+                                i.build = d && d.v,
+                                i.appType = c;
+                                const p = function(e, t, n) {
+                                    const o = n && "phone" === n.toLowerCase();
+                                    return {
+                                        bingHomepage: "binghomepage",
+                                        mmx: "emmx",
+                                        edge: "spartan",
+                                        edgeChromium: t && "enterprise" === t ? "entnews" : "anaheim",
+                                        hybrid: "spartan",
+                                        hub: o ? "prime_mobile" : "prime",
+                                        microsoftNews: "msnews",
+                                        office: "entnews",
+                                        views: o ? "prime_mobile" : "prime",
+                                        windowsShell: "windowsshell"
+                                    }[e]
+                                }(c, a, g)
+                                  , f = p || c
+                                  , m = document.getElementsByTagName("html")[0].getAttribute("lang");
+                                let w = ""
+                                  , b = "muid";
+                                try {
+                                    window && window.getCookieConsentRequired && "function" == typeof window.getCookieConsentRequired && window.getCookieConsentRequired() || (w = y("muid"))
+                                } catch (e) {
+                                    console.log("error fetching muid.")
+                                }
+                                w || (w = n.aid,
+                                b = "aid");
+                                const v = {
+                                    name: "MS.News.Web.AppError",
+                                    time: l,
+                                    ver: "4.0",
+                                    iKey: `o:${o}`,
+                                    data: {
+                                        baseData: {},
+                                        baseType: "MS.News.Web.Base",
+                                        page: {
+                                            name: "default",
+                                            product: f,
+                                            type: Ae(u),
+                                            content: {
+                                                category: "standaloneError"
+                                            }
+                                        },
+                                        browser: {
+                                            clientId: w,
+                                            clientIdType: b
+                                        },
+                                        flight: {
+                                            id: r
+                                        },
+                                        request: {
+                                            activityId: n.aid,
+                                            requestId: n.aid,
+                                            afdMuid: h
+                                        },
+                                        locale: {
+                                            mkt: m
+                                        },
+                                        extSchema: {
+                                            id: e,
+                                            severity: s,
+                                            pb: i,
+                                            message: t
+                                        }
+                                    }
+                                };
+                                return v ? JSON.stringify(v) : null
+                            }
+                            return null
+                        }(t, e, i, c, n, r, o);
+                        if (s && a) {
+                            console.error(a),
+                            Se.push(a);
+                            const e = "https://" + be + "/OneCollector/1.0" + function(e) {
+                                return "?" + Object.keys(e).map((function(t) {
+                                    return t + "=" + encodeURIComponent(e[t])
+                                }
+                                )).join("&")
+                            }(s);
+                            navigator.sendBeacon(e, a)
+                        } else
+                            console.log("missing parameters in data-client-settings. " + e)
+                    } catch (t) {
+                        console.log("error logging the app error. " + e)
+                    }
+                }
+                function Ae(e) {
+                    let t = e;
+                    switch (e) {
+                    case "windowsshellhp":
+                        t = "dhp";
+                        break;
+                    case "video":
+                        t = "watch"
+                    }
+                    return t
+                }
+                function Ie(e, t) {
+                    try {
+                        ke("Navigating to local ntp on JS Exception.", e, t)
+                    } finally {
+                        const t = ve();
+                        location.replace(`chrome-search://local-ntp/local-ntp.html?ntperror=${e}&rid=${t && t.aid}`)
+                    }
+                }
+                (window && window._pageTimings || (window._pageTimings = {})).TTJSStart = Math.round(performance.now());
+                const qe = b();
+                (function(e) {
+                    if (!s() || !e)
+                        return !1;
+                    const t = "os-sku";
+                    let n = !1;
+                    const r = window;
+                    if (r && r.external && r.external.getHostEnvironmentValue) {
+                        const s = i(r.external.getHostEnvironmentValue(t));
+                        s && "192" === s["os-sku"] && (e.os = o.Xbox,
+                        n = !0)
+                    }
+                    if (location) {
+                        let t = new URL(location.href).searchParams.get("overrideos");
+                        if (t) {
+                            t = t.toLowerCase();
+                            const i = Object.values(o).find((e=>e.toLowerCase() === t));
+                            i && (e.os = i,
+                            n = !0)
+                        }
+                    }
+                    return n
+                }
+                )(qe) && function(e) {
+                    if (!s() || !e)
+                        return;
+                    const t = function(e) {
+                        try {
+                            return JSON.stringify(e)
+                        } catch (e) {
+                            return null
+                        }
+                    }(e);
+                    t && document.head.setAttribute(c, t)
+                }(qe),
+                (new class {
+                    constructor() {
+                        this.childCookieName = "child",
+                        this.domInfo = document.head.dataset.info
+                    }
+                    init(e=null) {
+                        this.clientSettings = e || b(),
+                        this.authCookieName = window._authCookieName || "",
+                        this.bundle = window._webWorkerBundle || "";
+                        const t = this.buildWebWorkerUrl()
+                          , n = window.webWorker = new Worker(t,{
+                            name: "web-worker"
+                        })
+                          , o = window.webWorkerMessages = [];
+                        n.onmessage = e=>{
+                            o.push(e.data)
+                        }
+                        ;
+                        const i = window.webWorkerErrors = [];
+                        if (n.onerror = e=>{
+                            i.push(e)
+                        }
+                        ,
+                        window.chrome) {
+                            const e = this.getAudienceMode(this.clientSettings)
+                              , t = window.webWorker && window.chrome && window.chrome.ntpSettingsPrivate;
+                            if (t && "function" == typeof t.getPref && (t.getPref("ntp.news_feed_display", (e=>{
+                                e && e.value && n.postMessage({
+                                    id: "FeedDisplaySetting",
+                                    type: "command",
+                                    payload: e.value
+                                })
+                            }
+                            )),
+                            t.getPref("ntp.layout_mode", (e=>{
+                                e && e.value && n.postMessage({
+                                    id: "LayoutModeSetting",
+                                    type: "command",
+                                    payload: e.value
+                                })
+                            }
+                            )),
+                            t.getPref("ntp.user_nurturing", (e=>{
+                                let t = !1;
+                                e && e.value && e.value.length && (t = this.getSingleColRequest(e.value)),
+                                n.postMessage({
+                                    id: "RenderSingleColumn",
+                                    type: "command",
+                                    payload: t
+                                })
+                            }
+                            )),
+                            t.getPref("new_device_fre.has_user_seen_new_fre", (e=>{
+                                e && n.postMessage({
+                                    id: "NewUserFre",
+                                    type: "command",
+                                    payload: e.value
+                                })
+                            }
+                            ))),
+                            e === p.Enterprise && this.clientSettings.browser && "edgeChromium" === this.clientSettings.browser.browserType && parseInt(this.clientSettings.browser.version) >= 87 && this.getEnterpriseAccessToken().then((e=>{
+                                e && n.postMessage({
+                                    id: "AuthTokenEnterprise",
+                                    type: "command",
+                                    payload: ce(e)
+                                })
+                            }
+                            )),
+                            e !== p.Adult && e !== p.Enterprise || this.sendPageConfiguration(),
+                            ie(e)) {
+                                const e = y("lt") || y("at");
+                                n.postMessage({
+                                    id: "AuthHeaders",
+                                    type: "command",
+                                    payload: ae(e)
+                                })
+                            }
+                        }
+                        oe() && de.promise.then((e=>n.postMessage({
+                            id: "AuthHeaders",
+                            type: "command",
+                            payload: e || {}
+                        })))
+                    }
+                    buildWebWorkerUrl(e=null) {
+                        return (this.bundle || "") + "#" + this.qsFromDocument() + this.qsFromCookies() + this.qsFromDataAttribute(e || this.clientSettings) + this.qsMisc() + this.qsAuth(e || this.clientSettings) + this.qsFromUrl() + this.qsFromServiceWorker() + this.qsSelectedPivot() + this.qsXboxXToken()
+                    }
+                    qs(e, t, n) {
+                        return e ? t + "=" + (n || e) + "&" : ""
+                    }
+                    qsFromDocument() {
+                        var e;
+                        return this.qs(document.getElementsByTagName("html")[0].getAttribute("lang"), "lang") + this.qs(encodeURIComponent(window.location.href), "adsReferer") + this.qs(null === (e = s() ? window.devicePixelRatio : G().devicePixelRatio) || void 0 === e ? void 0 : e.toString(), "devicePixelRatio")
+                    }
+                    qsFromServiceWorker() {
+                        if (!navigator.serviceWorker || !navigator.serviceWorker.controller)
+                            return "";
+                        const e = navigator.serviceWorker.controller;
+                        if ("activated" !== e.state || !e.scriptURL)
+                            return "";
+                        if (e.scriptURL) {
+                            const t = new URL(e.scriptURL).searchParams.toString();
+                            return t ? "&" + t + "&" : ""
+                        }
+                        return ""
+                    }
+                    qsFromCookies() {
+                        return this.qs(S(this.authCookieName), "aace", "1") + this.qs(S("muid"), "muid") + this.qs(S(this.childCookieName), "child") + this.qs(S("cbypass"), "cbypass") + this.qs(this.cookieBannerConsentRequired().toString(), "ccRequired") + this.qs(S("ecasession"), "ecasession") + this.qs(S("TOptOut"), "browserOptOut")
+                    }
+                    qsFromDataAttributeHelper(e, t) {
+                        return e && e.featureFlags && e.featureFlags.wpoEnabled && (t = this.appendWpoFlightsToInfo(e, t)),
+                        this.qs(e.pcsInfo && e.pcsInfo.env || e.env, "env") + this.qs(e.aid, "aid") + this.qs(e.apptype, "apptype") + this.qs(e.pagetype, "pagetype") + this.qs(e.audienceMode, "audienceMode") + this.qs(e.configIndexDocId, "configIndexDocId") + this.qs(e.deviceFormFactor, "deviceFormFactor") + this.qs(e.domain, "domain") + this.qs(e.configRootUrl, "configRootUrl") + this.qs(this.getHighestCbid(e.cbid, e.apptype), "cbid") + this.qs(e.ocid, "ocid") + this.qs(e.os, "os") + this.qs(JSON.stringify(e.locale), "locale") + this.qs(e.geo_lat, "lat") + this.qs(e.geo_long, "long") + this.qs(JSON.stringify(e.featureFlags), "featureFlags") + this.qs(JSON.stringify(e.browser), "browser") + this.qs(JSON.stringify(e.servicesEndpoints), "servicesEndpoints") + this.qs(e.bundleInfo && e.bundleInfo.v || "", "buildVersion") + this.qs(t, "dataInfo")
+                    }
+                    qsSelectedPivot() {
+                        const e = "selectedPivot";
+                        let t;
+                        try {
+                            const n = J();
+                            n && (t = n.getItem(e))
+                        } catch (e) {
+                            console.log("Error getting pivot id from local storage. " + e)
+                        }
+                        return this.qs(t, e)
+                    }
+                    qsXboxXToken() {
+                        const e = "xboxXTokenId";
+                        let t;
+                        try {
+                            const n = J();
+                            n && (t = n.getItem(e))
+                        } catch (e) {
+                            console.log("Error getting xbox XToken from local storage. " + e)
+                        }
+                        return this.qs(t, e)
+                    }
+                    appendWpoFlightsToInfo(e, t) {
+                        const n = this.getWpoFlightsFromLocalStorage(e);
+                        if (n && n.length) {
+                            const e = ";"
+                              , o = t.split(e);
+                            for (let e = 0; e < o.length; e++) {
+                                const t = o[e];
+                                if (t && t.startsWith("f:")) {
+                                    o[e] = t + "," + n.join();
+                                    break
+                                }
+                            }
+                            return o.join(e)
+                        }
+                        return t
+                    }
+                    getWpoFlightsFromLocalStorage(e) {
+                        const t = J()
+                          , n = e.locale
+                          , o = `wpo_data_ ${e.audienceMode}_${n.language}_${n.market}_${e.pagetype}_${e.apptype}`;
+                        try {
+                            const e = t.getItem(o);
+                            if (e) {
+                                return JSON.parse(e).treatments.map((e=>e.id))
+                            }
+                        } catch (e) {
+                            console.warn(`Error getting wpo flights from ls for ${o} Error:${e}`)
+                        }
+                        return null
+                    }
+                    getHighestCbid(e, t) {
+                        try {
+                            const n = J()
+                              , o = parseInt(e)
+                              , i = parseInt(JSON.parse(n.getItem(`cbid_${t || ""}`)));
+                            let r;
+                            if (o && !isNaN(o) && i && !isNaN(i) && (r = o > i ? o : i),
+                            r = r || o || i,
+                            r)
+                                return window._cbid = r.toString()
+                        } catch (e) {
+                            console.log("Error getting highest CBID" + e)
+                        }
+                    }
+                    getAudienceMode(e) {
+                        J();
+                        const t = y(this.authCookieName)
+                          , n = y(this.childCookieName)
+                          , {child: o} = t && JSON.parse(t) || {};
+                        return t && (1 === o || n) ? "kids" : e.audienceMode || p.Adult
+                    }
+                    sendPageConfiguration() {
+                        const e = this.clientSettings.pagetype;
+                        if (e) {
+                            const t = y && y("pglt-edgeChromium-" + e);
+                            if (t)
+                                return void window.webWorker.postMessage({
+                                    id: "PageConfiguration",
+                                    type: "command",
+                                    payload: t
+                                })
+                        }
+                        window.webWorker.postMessage({
+                            id: "PageConfiguration",
+                            type: "command",
+                            payload: !1
+                        })
+                    }
+                    qsFromDataAttribute(e) {
+                        let t, n;
+                        const o = J();
+                        if (o) {
+                            const i = JSON.parse(o.getItem("shd_" + e.pagetype) || null);
+                            i && i.clientSettings && i.info && (t = Object.assign(Object.assign({}, i.clientSettings), {
+                                bundleInfo: e.bundleInfo
+                            }),
+                            n = i.info)
+                        }
+                        return (!t || !n || e.pageGenTime >= t.pageGenTime) && (t = e,
+                        n = this.domInfo),
+                        t.audienceMode = this.getAudienceMode(t),
+                        this.qsFromDataAttributeHelper(t, n)
+                    }
+                    qsFromUrl() {
+                        const e = location.search;
+                        return e && e.length ? e.substring(1, e.length) : ""
+                    }
+                    getEnterpriseAccessToken() {
+                        return new Promise((e=>{
+                            window.chrome && window.chrome.authPrivate ? window.chrome.authPrivate.getPrimaryAccountInfo((t=>{
+                                t && "GCC_MODERATE" !== t.region_scope || e("");
+                                const n = {
+                                    account_id: t.account_id,
+                                    account_type: t.account_type,
+                                    client_id: "d7b530a4-7680-4c23-a8bf-c52c121d2e87",
+                                    scope_or_resource: "https://enterprisenews.microsoft.com"
+                                };
+                                window.chrome.authPrivate.acquireAccessTokenSilently(n, (t=>{
+                                    t.is_success ? e(t.access_token) : e("")
+                                }
+                                ))
+                            }
+                            )) : e("")
+                        }
+                        ))
+                    }
+                    qsMisc() {
+                        return this.qs(performance.timeOrigin && performance.timeOrigin.toString(), "mainTimeOrigin")
+                    }
+                    qsAuth(e) {
+                        let t = this.qs(ee() && "1", "disableWWAuth");
+                        if (!ie(e && e.audienceMode) && !oe()) {
+                            const e = ne() && se() || {};
+                            t += this.qs(encodeURIComponent(JSON.stringify(ce(e.accessToken))), "authHeaders")
+                        }
+                        return "edgeChromium" == Z() && _("prg-ntp-uat-nf") && (t += this.qs("1", "acf")),
+                        t
+                    }
+                    getSingleColRequest(e) {
+                        const t = "render_single_column"
+                          , n = "feed_layout";
+                        let o, i;
+                        for (const r of e) {
+                            const {key: e, value: s} = r;
+                            e === t ? o = s : e === n && (i = s)
+                        }
+                        return "boolean" == typeof o ? o : !!i && (i && "single" === i.type)
+                    }
+                    cookieBannerConsentRequired() {
+                        const e = null != document.getElementById("consent-banner-container") && null === y("MSCC")
+                          , t = null != document.getElementById("onetrust-sdk") && null === y("eupubconsent-v2");
+                        return e || t
+                    }
+                }
+                ).init(qe),
+                function(e=["vendors", "common", "microsoft"], t="Error when loading bundle(s): ", n=5e5, o, i) {
+                    ("visible" === document.visibilityState ? Promise.resolve() : new Promise((e=>{
+                        document.addEventListener("visibilitychange", (()=>{
+                            "visible" === document.visibilityState && e()
+                        }
+                        ))
+                    }
+                    ))).then((()=>{
+                        setTimeout((()=>{
+                            const n = window.webpackJsonp;
+                            if (n) {
+                                const r = n.length
+                                  , s = e.length + 1;
+                                if (r < s) {
+                                    if (r === s - 1)
+                                        e = ["experience"];
+                                    else {
+                                        n.slice(0, s).forEach((t=>{
+                                            t.length && t[0][0] && e.splice(e.indexOf(t[0][0]), 1)
+                                        }
+                                        ))
+                                    }
+                                    ke(t + e.toString(), 20202, {}),
+                                    i && i(o, {
+                                        customMessage: e.toString()
+                                    })
+                                }
+                            }
+                        }
+                        ), n)
+                    }
+                    ))
+                }(["vendors", "common", "microsoft"], "Error when loading bundle(s): ", 5e5, 19003, ((e,t)=>{
+                    Ie(e, t)
+                }
+                ))
+            }();
+        </script>
+        <link rel="dns-prefetch" href="//api.msn.com" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//assets.msn.com" crossorigin="anonymous">
+        <link rel="dns-prefetch" href="//assets.msn.com" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//c.bing.com" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//c.msn.com" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//img-s-msn-com.akamaized.net" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//sb.scorecardresearch.com" crossorigin="use-credentials">
+        <link rel="dns-prefetch" href="//www.bing.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//api.msn.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//assets.msn.com" crossorigin="anonymous">
+        <link rel="preconnect" href="//assets.msn.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//c.bing.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//c.msn.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//img-s-msn-com.akamaized.net" crossorigin="use-credentials">
+        <link rel="preconnect" href="//sb.scorecardresearch.com" crossorigin="use-credentials">
+        <link rel="preconnect" href="//www.bing.com" crossorigin="use-credentials">
+        <link rel="icon" href="https://assets.msn.com/statics/icons/favicon_newtabpage.png" type="image/png" crossorigin="anonymous" sizes="32x32">
+        <script type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            if (matchMedia("(prefers-color-scheme:dark)").matches) {
+                const s = document.createElement("style");
+                document.head.appendChild(s);
+                s.type = "text/css";
+                s.appendChild(document.createTextNode("body{background:#242424}"));
+            }
+        </script>
+        <script type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            !function() {
+                if ("hidden" !== document.visibilityState)
+                    return;
+                const i = window.requestAnimationFrame
+                  , n = window.cancelAnimationFrame;
+                window.requestAnimationFrame = function(i) {
+                    return setTimeout(i, 1)
+                }
+                ,
+                window.cancelAnimationFrame = function(i) {
+                    clearTimeout(i)
+                }
+                ;
+                let e = ()=>{
+                    "visible" === document.visibilityState && (window.requestAnimationFrame = i,
+                    window.cancelAnimationFrame = n,
+                    document.removeEventListener("visibilitychange", e))
+                }
+                ;
+                document.addEventListener("visibilitychange", e)
+            }();
+        </script>
+        <script type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            const _clientSettings = JSON.parse(document.head.dataset.clientSettings);
+        </script>
+        <script nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=">
+            function getCookieConsentRequired() {
+                return false;
+            }
+            !function() {
+                "use strict";
+                let e, t, n, o;
+                function i() {
+                    if (!e) {
+                        const t = document.head.getAttribute("data-client-settings");
+                        t && (e = JSON.parse(t))
+                    }
+                    return e
+                }
+                function r(e) {
+                    try {
+                        return decodeURIComponent(e)
+                    } catch (e) {}
+                }
+                const c = {
+                    bingHomepage: "binghomepage",
+                    mmx: "emmx",
+                    edge: "spartan",
+                    edgeChromium: "anaheim",
+                    hybrid: "spartan",
+                    hub: "prime",
+                    microsoftNews: "msnews",
+                    office: "entnews"
+                };
+                var a;
+                !function(e) {
+                    e[e.Alert = 0] = "Alert",
+                    e[e.NoAlert = 1] = "NoAlert",
+                    e[e.HighImpact = 2] = "HighImpact",
+                    e[e.Critical = 3] = "Critical"
+                }(a || (a = {}));
+                const s = new class {
+                    constructor(e=20) {
+                        this.maxLength = 20,
+                        this.list = [],
+                        this.maxLength = e
+                    }
+                    push(e) {
+                        this.list.push(e),
+                        this.list.length > this.maxLength && this.list.shift()
+                    }
+                    get data() {
+                        return this.list
+                    }
+                }
+                ;
+                function l(e, l, u, d=a.Alert) {
+                    try {
+                        const m = i()
+                          , f = function() {
+                            if (t)
+                                return t;
+                            let e = document.head.getAttribute("data-info");
+                            const n = i();
+                            if ("undefined" != typeof window && window.document && window.document.createElement && window.applicationCache && window.document.getElementsByTagName("html")[0].getAttribute("manifest")) {
+                                let t;
+                                try {
+                                    const e = window.localStorage.getItem("shd_" + n.pagetype);
+                                    t = JSON.parse(e)
+                                } catch (e) {
+                                    t = null
+                                }
+                                if (t) {
+                                    const o = t.clientSettings
+                                      , i = t.info;
+                                    o && i && n.pageGenTime < o.pageGenTime && (e = i)
+                                }
+                            }
+                            return t = ((/f:\s*([^;]+)/i.exec(e) || {})[1] || "").toLowerCase(),
+                            t
+                        }()
+                          , p = function(e) {
+                            if (e) {
+                                const {pcsInfo: t, pageGenTime: n} = e
+                                  , i = new Date(n).getTime()
+                                  , r = !t || "prod" === t.env;
+                                return o = r ? "browser.events.data.msn.com" : "events-sandbox.data.msn.com",
+                                {
+                                    cors: "true",
+                                    "content-type": "application/x-json-stream",
+                                    "client-id": "NO_AUTH",
+                                    "client-version": "1DS-Web-JS-2.2.2",
+                                    apikey: r ? "0ded60c75e44443aa3484c42c1c43fe8-9fc57d3f-fdac-4bcf-b927-75eafe60192e-7279" : "f8857dedc6f54ca8962cfb713e01e7d7-e9250191-fe0b-446f-95ae-07516262f98c-7028",
+                                    "upload-time": i,
+                                    w: "0",
+                                    anoncknm: "app_anon"
+                                }
+                            }
+                            return null
+                        }(m);
+                        let g = "";
+                        p && p.apikey && "" !== p.apikey && (g = function(e) {
+                            if (e) {
+                                const t = e.indexOf("-");
+                                if (t > 0)
+                                    return e.substring(0, t)
+                            }
+                            return ""
+                        }(p.apikey));
+                        const h = function(e, t, o, i, s, l, u=a.Alert) {
+                            if (o) {
+                                s = s || {};
+                                const {apptype: a, audienceMode: d, pagetype: m, pageGenTime: f, bundleInfo: p} = o;
+                                s.pageGenTime = f,
+                                s.build = p && p.v,
+                                s.appType = a;
+                                const g = ("enterprise" === d && "edgeChromium" === a ? "entnews" : c[a]) || a
+                                  , h = document.getElementsByTagName("html")[0].getAttribute("lang");
+                                let w = ""
+                                  , y = "muid";
+                                try {
+                                    window && window.getCookieConsentRequired && "function" == typeof window.getCookieConsentRequired && window.getCookieConsentRequired() || (w = function(e, t) {
+                                        if (!e)
+                                            return null;
+                                        if (t)
+                                            return function(e) {
+                                                const t = document.cookie.match(`\\b${e}=([^;]*)`);
+                                                return t ? r(t[1]) : null
+                                            }(e);
+                                        if (!n) {
+                                            const e = "undefined" != typeof document && document.cookie.split("; ");
+                                            n = {};
+                                            const t = e && e.length;
+                                            for (let o = 0; o < t; o++) {
+                                                const t = e[o].split("=");
+                                                n[t[0].toLocaleLowerCase()] = r(t[1])
+                                            }
+                                        }
+                                        const o = e.toLocaleLowerCase();
+                                        return n[o] || null
+                                    }("muid"))
+                                } catch (e) {
+                                    console.log("error fetching muid.")
+                                }
+                                w || (w = o.aid,
+                                y = "aid");
+                                const b = {
+                                    name: "MS.News.Web.AppError",
+                                    time: f,
+                                    ver: "4.0",
+                                    iKey: `o:${i}`,
+                                    data: {
+                                        baseData: {},
+                                        baseType: "MS.News.Web.Base",
+                                        page: {
+                                            name: "default",
+                                            product: g,
+                                            type: m
+                                        },
+                                        browser: {
+                                            clientId: w,
+                                            clientIdType: y
+                                        },
+                                        flight: {
+                                            id: l
+                                        },
+                                        request: {
+                                            activityId: o.aid,
+                                            requestId: o.aid
+                                        },
+                                        locale: {
+                                            mkt: h
+                                        },
+                                        extSchema: {
+                                            id: e,
+                                            severity: u,
+                                            pb: s,
+                                            message: t
+                                        }
+                                    }
+                                };
+                                return b ? JSON.stringify(b) : null
+                            }
+                            return null
+                        }(l, e, m, g, u, f, d);
+                        if (p && h) {
+                            console.error(h),
+                            s.push(h);
+                            const e = "https://" + o + "/OneCollector/1.0" + function(e) {
+                                return "?" + Object.keys(e).map((function(t) {
+                                    return t + "=" + encodeURIComponent(e[t])
+                                }
+                                )).join("&")
+                            }(p);
+                            navigator.sendBeacon(e, h)
+                        } else
+                            console.log("missing parameters in data-client-settings. " + e)
+                    } catch (t) {
+                        console.log("error logging the app error. " + e)
+                    }
+                }
+                function u(e, t) {
+                    try {
+                        l("Navigating to local ntp on JS Exception.", e, t)
+                    } finally {
+                        const t = i();
+                        location.replace(`chrome-search://local-ntp/local-ntp.html?ntperror=${e}&rid=${t && t.aid}`)
+                    }
+                }
+                window.onErrorHandler = function(e) {
+                    const t = "Error when loading bundle: " + e;
+                    try {
+                        l(t, 20202, {})
+                    } finally {
+                        u(19003, {
+                            customMessage: t
+                        })
+                    }
+                }
+                ,
+                window.onerror = function(e, t, n, o, i) {
+                    const r = {
+                        source: t,
+                        customMessage: e,
+                        line: n,
+                        column: o,
+                        stack: i && i.stack
+                    };
+                    try {
+                        l("JS Exception.", 20203, r)
+                    } finally {
+                        if (i && "SyntaxError" === i.name) {
+                            const e = ["vendors", "common", "microsoft", "experience", "web-worker"];
+                            for (const n of e)
+                                if (t.includes(n)) {
+                                    u(19002, r);
+                                    break
+                                }
+                        }
+                    }
+                }
+            }();
+        </script>
+    </head>
+    <body>
+        <div id="root" data-config-indexdocid=""></div>
+        <script src='https://assets.msn.com/bundles/v1/edgeChromium/latest/vendors.5864fc0d475125a8dc1e.js' type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=" crossorigin="anonymous"></script>
+        <script src='https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.a7aa9759e163ed9f31f4.js' type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=" crossorigin="anonymous"></script>
+        <script src='https://assets.msn.com/bundles/v1/edgeChromium/latest/common.2e215010adf2ef086b72.js' type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=" crossorigin="anonymous"></script>
+        <script src='https://assets.msn.com/bundles/v1/edgeChromium/latest/experience.3de153c59788f495fa2d.js' type="text/javascript" nonce="KINmnMW36NLrJEZwV2dsvwGmtV3wiZlkuBATbOno15U=" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+-    TF_ASSIGN_OR_RETURN(
+-        Shape inferred_shape,
+-        ShapeInference::InferAllGatherShape({operand_shape},
+-                                            all_gather_dimension, shard_count));
++    std::vector<const Shape*> operand_shapes;
++    std::vector<XlaOp> operands;
++    if (operand_shape->IsTuple()) {
+This looks like copy/pasted from all-reduce. Is it possible to factor it out into a helper function?
+
+In tensorflow/compiler/xla/client/xla_builder_test.cc:
+
+> @@ -407,6 +407,24 @@ TEST_F(XlaBuilderTest, AllGatherR2) {
+  ShapeUtil::Equal(root->shape(), ShapeUtil::MakeShape(F32, {4, 64})));
+}
+
++TEST_F(XlaBuilderTest, AllGatherWithToken) {
+AllGatherWithTuple?
+
+In tensorflow/compiler/xla/client/xla_builder_test.cc:
+
+> @@ -433,6 +451,38 @@ TEST_F(XlaBuilderTest, ReduceScatter) {
+  ShapeUtil::Equal(root->shape(), ShapeUtil::MakeShape(F32, {4, 8})));
+}
+
++TEST_F(XlaBuilderTest, ReduceScatterWithToken) {
+ReduceScatterWithTuple?
+
+In tensorflow/compiler/xla/service/hlo_verifier.cc:
+
+>  
+int64_t shard_count;
++  // There can be one token in the input Tuple. The token is a scalar or
+    "configurations": [
+    
+    ]
+}#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  double sinValue, number;
+  printf(" Please Enter the Value to calculate Sine :  ");
+  scanf("%lf", &number);
+  
+  sinValue = sin(number);
+  
+  printf("\n The Sine value of %lf = %f ", number, sinValue);
+  
+  return 0;
+}x = 45.0;
+val = PI / 180;
+ret = sin(x*val);
+printf("The sine of %lf is %lf degrees", x, ret);
+return(0);..void setup() {
+  Serial.begin(9600);
+
+  for (int angle = 0; angle <= 180; angle += 15) {
+    float angle_rad = angle * M_PI / 180;
+    float sin_result = sin(angle_rad);
+
+    Serial.print("sin(");
+    Serial.print(angle);
+    Serial.print("°) = ");
+    Serial.println(sin_result);
+  }
+}
+
+void loop() {
+}
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    double x=0.5,y=1;//define and initiates variables
+    printf("sine value of %f is %f\n",x,sin(x));
+    printf("sine value of %f is %f\n",y,sin(y));
+    getch();
+    return 0;
+}
+ 
+
+When compile and run above program, this will produce the following result
+
+sine value of 0.500000 is: 0.479426
+sine value of 1.000000 is: 0.841471
+Program 2
+
+#include <stdio.h>
+#include <math.h>
+//sin calculator in C
+int main()
+{     //define variables
+    float sineValue,inputValue;
+        //Get input from user
+    printf("please enter the value to calculate sine: ");
+    scanf("%f",&inputValue);
+        //Calculate the sine value 
+    sineValue=sin(inputValue);
+         //Display the sine value
+    printf("\nThe sine value of %f is =%f",inputValue,sineValue);
+    getch();
+    return 0;
+}
+# Import math Library
+import math
+
+# Return the sine of different values
+print (math.sin(0.00))
+print (math.sin(-1.23))
+print (math.sin(10))
+print (math.sin(math.pi))
+print (math.sin(math.pi/2))
+
+
+# Import math Library
+import math
+
+# Return the sine value of 30 degrees
+print(math.sin(math.radians(30)))
+
+# Return the sine value of 90 degrees
+print(math.sin(math.radians(90)))
+
+#include <stdio.h>
+//to use 'sin()' function
+#include <math.h>
+
+int main()
+{
+	// set the type of variable
+	float a, num;
+
+	// message for user
+	printf("Please enter a number from keyboard to find it's sin value\n");
+	scanf("%f", &num);
+
+	// storing the sin value
+	a = sin(num);
+
+	// printing the calculated value
+	printf("value in sin is = %.4f\n", a);
+
+	return 0;
+}
+Output
+
+math.h cos() in c language
+math.h - cos() function Example in C
+
+#include <stdio.h>
+//to use 'cos()' function
+#include <math.h>
+
+int main()
+{
+	// set the type of variable
+	float a, number;
+
+	// message for user
+	printf("Please enter a number from keyboard to find it's cos value\n");
+	scanf("%f", &number);
+
+	// storing the cos value
+	a = cos(number);
+
+	// printing the calculated value
+	printf("value in cos is = %.3f\n", a);
+
+	return 0;
+}
+Output
+
+math.h cos() in c language Declare the main function and ask the user to enter the number of columns and number of rows for both matrices using the print() function.
+
+Use the scanf() function to receive input. %d is the decimal format specifier that ensures that the program reads input as a number.
+
+#include
+
+#include
+
+int main()
+
+{
+
+int r1, r2, c1, c2;
+
+printf("Enter the number of rows for the first matrix:\n");
+
+scanf("%d", &r1);
+
+printf("Enter the number of columns for the first matrix:\n");
+
+scanf("%d", &c1);
+
+printf("Enter the number of rows for the second matrix:\n");
+
+scanf("%d", &r2);
+
+printf("Enter the number of columns for the second matrix:\n");
+
+scanf("%d", &c2);
+
+Check that matrix multiplication is possible. If the number of columns of the first matrix is not equal to the number of rows of the second matrix, display an error and exit.
+
+if (c1 != r2) {
+
+printf("The matrices cannot be multiplied together");
+
+exit(-1);
+
+}
+
+If all is good, define two multidimensional arrays, m1 and m2, with the size that the user provided. Ask the user to enter the elements of both matrices one by one. Use a nested for loop to take the input for both the row and column of the matrix. The outer for loop iterates over the rows of the matrix and the inner loop over the column of the matrix.
+
+int m1[r1][c1], m2[r2][c2];
+
+printf("Enter the elements of the first matrix\n");
+
+for (int i = 0; i < r1; i++) {
+
+for (int j = 0; j < c1; j++) {
+
+scanf("%d", &m1[i][j]);
+
+}
+
+}
+
+printf("Enter the elements of the second matrix\n");
+
+for (int i = 0; i < r2; i++) {
+
+for (int j = 0; j < c2; j++) {
+
+scanf("%d",&m2[i][j]);
+
+}
+
+}
+
+Define a third matrix, mul, of order r1 * c2 to store the result. Use a nested for loop to perform the multiplication. The outermost for loop iterates over the rows, the next inner loop iterates over the columns, and the innermost performs the multiplication. Use the formula mul[i][j] += m1[i][k] * m2[k][j] to multiply the elements of the matrix.
+
+The formula uses the shorthand operator += to add mul[i][j] to the computed expression and store it. Remember to initialize the result to zero before adding to it.
+
+int mul[r1][c2];
+
+for (int i = 0; i < r1; i++) {
+
+for (int j = 0; j < c2; j++) {
+
+mul[i][j] = 0;
+
+for (int k = 0; k < c1; k++) {
+
+mul[i][j] += m1[i][k] * m2[k][j];
+
+}
+
+}
+
+}
+
+Display the multiplied matrix using a nested for loop that iterates over the resultant matrices' rows and columns. Use the new-line character (\n) to display each of the rows on a separate line. Return 0 to exit the main function and the program.
+
+printf("The multiplied matrix is: \n");
+
+for (int i = 0; i < r1; i++) {
+
+for (int j = 0; j < c2; j++) {
+
+printf("%d\t", mul[i][j]);
+
+}
+
+printf("\n");
+
+}
+
+return 0;
+
+}
